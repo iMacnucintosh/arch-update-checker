@@ -1,0 +1,380 @@
+# Translation of archupdatechecker in LANGUAGE
+# Copyright (C) 2026
+# This file is distributed under the same license as the archupdatechecker package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: archupdatechecker\n"
+"Report-Msgid-Bugs-To: https://github.com/dhruv8sh/arch-update-checker\n"
+"POT-Creation-Date: 2026-09-24 13:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ../contents/config/config.qml
+msgid "Package Management"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "Behavior"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "Appearance"
+msgstr ""
+
+#: ../contents/config/config.qml
+msgid "Debug"
+msgstr ""
+
+#: ../contents/ui/Common/DetailsText.qml
+msgid "Copy 'Name - New Version'"
+msgstr ""
+
+#: ../contents/ui/Common/NewsItem.qml
+msgid "Go to page"
+msgstr ""
+
+#: ../contents/ui/Common/PackageItem.qml
+msgid "Update"
+msgstr ""
+
+#: ../contents/ui/Common/PackageItem.qml
+msgid "Uninstall"
+msgstr ""
+
+#: ../contents/ui/Common/PackageItem.qml
+msgid "Open URL"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgctxt "@title"
+msgid "Appearance"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Indicator Position"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Top-Left"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Top-Right"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Bottom-Left"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Bottom-Right"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid ""
+"\n"
+"Version Seperator"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Custom Colors"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Circle color"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Text color"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Show text on badge"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid "Custom icons"
+msgstr ""
+
+#: ../contents/ui/Config/configAppearance.qml
+msgid ""
+"Format: type > name > icon-name\n"
+"Types: group, name, source\n"
+"Name: '...' at the end matches any following string.\n"
+"'lib' and 'lib32-' in the package name match automatically.\n"
+"icon-name: '~' is same as package-name."
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Poll Interval:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Hours :"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Minutes"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Show in tray when:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "update(s) available."
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Search on expand:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Search on startup:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Remember if News Page is opened:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Notifications:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Enabled"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Terminal Command:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Custom `update system` command:"
+msgstr ""
+
+#: ../contents/ui/Config/configBehavior.qml
+msgid "Custom Command"
+msgstr ""
+
+#: ../contents/ui/Config/configPacman.qml
+msgid "AUR:"
+msgstr ""
+
+#: ../contents/ui/Config/configPacman.qml
+msgid "AUR Wrappers:"
+msgstr ""
+
+#: ../contents/ui/Config/configPacman.qml
+msgid "PACMAN/AUR Flags:"
+msgstr ""
+
+#: ../contents/ui/Config/configPacman.qml
+msgid "Flatpak:"
+msgstr ""
+
+#: ../contents/ui/Config/configPacman.qml
+msgid "Flatpak flags:"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "These flags are used to either debug the applet or are experimental!"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Features below are currently under maintainance and might not work due to recent major code refactors."
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Debug:"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Pages and Models"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Commands"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Always Show Badge:"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid ""
+"NOT RECOMMENDED\n"
+"USE AT YOUR OWN RISK\n"
+"You have been warned!:"
+msgstr ""
+
+#: ../contents/ui/Config/configUnsafe.qml
+msgid "Allow updating/uninstalling single native packages."
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Updates"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Arch Update Checker"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid ""
+"+%1 new update available!\n"
+"Total: %2"
+msgid_plural ""
+"+%1 new updates available!\n"
+"Total: %2"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/ui/main.qml
+msgid "%1 update available!"
+msgid_plural "%1 updates available!"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/ui/main.qml ../contents/ui/Pages/ListPage.qml
+msgid "Update System"
+msgstr ""
+
+#: ../contents/ui/main.qml
+msgid "Check for Updates"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@title"
+msgid "Update View"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Stop"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Refresh"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Clear orphans"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Official Arch Update News"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Automatically searching for updates"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Automatic updates paused"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Not searching for updates automatically"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@action:button"
+msgid "Resume"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid ""
+"Updating single packages is blocked by default due HIGH RISK OF SYSTEM BREAKAGE.\n"
+"You have been warned.\n"
+"Do you want to enable this?"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@action:button"
+msgid "Allow"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@action:button"
+msgid "Don't Allow"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@action:button"
+msgid "Clear"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Dependencies missing!"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgctxt "@action:button"
+msgid "Install"
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "No results."
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "Some error occurred."
+msgstr ""
+
+#: ../contents/ui/Pages/ListPage.qml
+msgid "You are up to date!"
+msgstr ""
+
+#: ../contents/ui/Pages/UpdateNews.qml
+msgctxt "@title"
+msgid "Update News"
+msgstr ""
+
+#: ../contents/ui/Pages/UpdateNews.qml
+msgid "Official Arch Linux News"
+msgstr ""
+
+#: ../contents/ui/Pages/UpdateNews.qml
+msgid "Open Webpage"
+msgstr ""
+
+#: ../contents/ui/Pages/UpdateNews.qml
+msgid "Go back"
+msgstr ""
+
+#: ../contents/ui/Pages/UpdateNews.qml
+msgid "Package List View"
+msgstr ""
+
+#: ../contents/Util.js
+msgid "%1 update available (%2)"
+msgid_plural "%1 updates available (%2)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/Util.js
+msgid "%1 update available"
+msgid_plural "%1 updates available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../contents/Util.js
+msgid "Dependencies Missing"
+msgstr ""
+
+#: ../contents/Util.js
+msgid "Missing dependencies for pacman"
+msgstr ""
+
+#: ../contents/Util.js
+msgid "Press Any Key to exit..."
+msgstr ""

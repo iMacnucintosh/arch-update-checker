@@ -10,6 +10,7 @@
         "BugReportUrl": "https://github.com/dhruv8sh/arch-update-checker/issues",
         "Category": "System Information",
         "Description": "Checks for updates on Arch Linux, Flatpak and AUR.",
+        "Description[es]": "Comprueba actualizaciones de Arch Linux, Flatpak y AUR.",
         "EnabledByDefault": true,
         "FormFactors": [
             "desktop"
@@ -18,6 +19,7 @@
         "Id": "org.kde.archupdatechecker",
         "License": "GPL-2.0+",
         "Name": "Arch Update Checker",
+        "Name[es]": "Comprobador de actualizaciones de Arch",
         "Version": "0.10.7",
         "Website": "https://github.com/dhruv8sh/arch-update-checker"
     },
