@@ -35,7 +35,7 @@ Kirigami.Page {
             property bool ascending: true
             property alias searchTerm:searchTextField.text
             QQC2.ToolButton{
-                text: i18n(isBusy?"Stop":"Refresh")
+                text: isBusy ? i18n("Stop") : i18n("Refresh")
                 icon.name: isBusy?"kt-stop":"view-refresh"
                 onClicked: {
                     if( isBusy ) Util.endAll();
@@ -112,7 +112,7 @@ Kirigami.Page {
                     checkable: true
                     checked: !isNotPaused
                     onCheckedChanged: main.isNotPaused = !checked
-                    PlasmaComponents.ToolTip { text: i18n(isNotPaused?"Automatically searching for updates":"Automatic updates paused") }
+                    PlasmaComponents.ToolTip { text: isNotPaused ? i18n("Automatically searching for updates") : i18n("Automatic updates paused") }
                 }
             }
         }
@@ -208,9 +208,9 @@ Kirigami.Page {
                             width: parent.width - (Kirigami.Units.largeSpacing * 4)
                             visible: packageView.count === 0 && !isBusy
                             text: {
-                                if(toolbar.searchTerm!=="") return "No results."
-                                else if(error !== "") return "Some error occurred."
-                                else return "You are up to date!"
+                                if(toolbar.searchTerm!=="") return i18n("No results.")
+                                else if(error !== "") return i18n("Some error occurred.")
+                                else return i18n("You are up to date!")
                             }
                             icon.name: {
                                 if(toolbar.searchTerm!=="") return "edit-none"

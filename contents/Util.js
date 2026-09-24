@@ -24,7 +24,10 @@ function stopSearch(){
     if(isBusy) timer.start()
     isBusy = false
     if(packageModel.count>0){
-        statusMessage=packageModel.count+i18n(' updates available')+(downloadSize?' ('+humanize(downloadSize)+')':'')
+        if(downloadSize)
+            statusMessage = i18np("%1 update available (%2)", "%1 updates available (%2)", packageModel.count, humanize(downloadSize))
+        else
+            statusMessage = i18np("%1 update available", "%1 updates available", packageModel.count)
         statusIcon="update-none"
     } else {
         statusMessage=''
@@ -139,14 +142,18 @@ class Command {
         this.callback = callback
     }
     execInTerminal(newCmd) {
+        const exitPrompt = i18n("Press Any Key to exit...")
         let termCmd=cfg.terminal + ` bash -c 'trap "" SIGINT;
             echo "${startMessage}";
             ${newCmd}
             echo "${endMessage}";
-            read -n 1 -p "Press Any Key to exit...";'`
-        packageManager.exec(termCmd,(_,_2,stderr,_3)=>{
-            stopSearch()
+            read -n 1 -p "${exitPrompt}";'`
+        packageManager.exec(termCmd,(_,stdout,stderr,_3)=>{
             if(cfg.debugCommands) console.log("Command: "+newCmd+"\nOutput:"+stdout+"\nstderr:"+stderr)
+            // After the terminal closes (e.g. after a system update), re-check so
+            // the badge/list refreshes — often to 0 once updates were applied.
+            if(this.showsBusy) commands["checkUpdates"].run()
+            else stopSearch()
         })
     }
     exec(newCmd){
@@ -221,8 +228,12 @@ done`,
         "Pacman Error","Cleaning up orphans",
         "edit-clear-all",true,true)
 }
+function searchForUpdates() {
+    commands["checkUpdates"].run()
+}
 function internetAvailable(){
     packageModel.clear()
+    downloadSize = 0
     commands["getPacman"].run()
 }
 function gotPacman(output){

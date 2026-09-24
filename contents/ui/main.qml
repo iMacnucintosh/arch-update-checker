@@ -52,8 +52,10 @@ PlasmoidItem {
         componentName: "archupdatechecker"
         eventId: "sound"
         title: {
-            if( notifDiff > 0 ) return "+"+notifDiff+" new update"+(notifDiff==1?"":"s")+" available! \n Total: "+packageModel.count;
-            else return packageModel.count + " updates available!"
+            if( notifDiff > 0 )
+                return i18np("+%1 new update available!\nTotal: %2", "+%1 new updates available!\nTotal: %2", notifDiff, packageModel.count);
+            else
+                return i18np("%1 update available!", "%1 updates available!", packageModel.count);
         }
         text: notifText
     }
