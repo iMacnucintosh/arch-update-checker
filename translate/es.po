@@ -236,7 +236,7 @@ msgstr "Actualizaciones"
 
 #: ../contents/ui/main.qml
 msgid "Arch Update Checker"
-msgstr "Comprobador de actualizaciones de Arch"
+msgstr "Actualizaciones del sistema"
 
 #: ../contents/ui/main.qml
 msgid ""
@@ -277,7 +277,7 @@ msgstr "Detener"
 
 #: ../contents/ui/Pages/ListPage.qml
 msgid "Refresh"
-msgstr "Actualizar"
+msgstr "Comprobar actualizaciones"
 
 #: ../contents/ui/Pages/ListPage.qml
 msgid "Clear orphans"
